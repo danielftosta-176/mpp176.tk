@@ -19,7 +19,7 @@ function mixin(obj1, obj2) {
 
 function Client(uri) {
 	EventEmitter.call(this);
-	this.uri = "wss://ws.mpp176.tk";
+	this.uri = "ws://mpp-server176.herokuapp.com:8080";
 	this.ws = undefined;
 	this.serverTimeOffset = 0;
 	this.user = undefined;
